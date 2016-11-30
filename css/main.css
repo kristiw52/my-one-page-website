@@ -15,7 +15,9 @@ nav ul {
 /*make these next two .nav wrapper li and .nav wrapper a to implement the main.js file */
 nav li {
     display: inline-block;
-    padding: 30px 30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: 30px;
 }
 
 nav a {
@@ -39,11 +41,18 @@ body {
   font-family: Montserrat, sans-serif;}
 
 h1 {
-    font-size: 60px;
+    font-size: 40px;
     padding: 30px;
 }
 
+p {
+    line-height: 28 px;
+    font-size: 16px;
+    margin-bottom: 2em;
+}
+
 section {
+    margin-top:70px;
     height: 600px;
     padding: 50px 80px;
     background-size: cover;
@@ -63,6 +72,12 @@ section {
 
 #contact {
     background: #c0bebe;
+}
+
+.img_home {
+    position: static;
+    left: 700px;
+    top: 300px;
 }
 
 footer {
