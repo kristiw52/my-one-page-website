@@ -22,10 +22,10 @@ $(window).resize(function() {
 });
 
 // Add parallax (stellar.js)
-$.stellar();
+// $.stellar(); 
 
 // Add wow.js animations
-new WOW().init();
+//new WOW().init();
 
 
 
