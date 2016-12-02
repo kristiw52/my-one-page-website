@@ -29,7 +29,7 @@ $(window).resize(function() {
 
 
 
-/*  This is the navigation wrapper
+/*  This is the fixed navigation bar scrolling */
 $(document).ready(function(){
   $(window).scroll(function(){
     if($(window).scrollTop() > 900 &&  
@@ -43,4 +43,11 @@ $(document).ready(function(){
     }
   })
 })
-*/
+
+/*  Displays the menu when the menu icon is clicked  - jQuery (jquery.nav.js) should be included */
+$(document).ready(function(){
+  $(".menu-icon").click(function(){
+    $("nav ul").slideToggle();
+  })
+})
+

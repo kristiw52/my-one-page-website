@@ -18,25 +18,24 @@ nav li {
     padding-left: 30px;
     padding-right: 30px;
     margin-top: 30px;
-    margin-bottom: 30px;
 }
 
 nav a {
     color: black;
 }
 
+/*
 #menu-icon {
     display: none;
-    position: fixed;
+    position: relative;
     top: -2px;
     right: 0;
     border-width: 0;
     background: transparent;
-    font-size: 24px;
+    font-size: 16px;
     cursor: pointer;
-    z-index: 2;
 }
-
+*/
 
 body {
   font-family: Montserrat, sans-serif;}
@@ -46,20 +45,32 @@ h1 {
     padding: 30px;
 }
 
+h2 {
+    font-size: 20px;
+    padding: 30px;
+}
+
 p {
     line-height: 28 px;
     font-size: 16px;
 }
 
 section {
-    height: 600px;
+    height: 400px;
     padding: 50px 80px;
     background-size: cover;
     background-attachment: fixed;
 }
 
+.header {
+	display: block;
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	height: 60px;
+	line-height: 20px
+}
+
 #home {
-    background: #ffffff;
+	background: #ffffff;
  }
 
 #about {
@@ -73,10 +84,9 @@ section {
     background: #c0bebe;
 }
 
-.img_home {
-    position: static;
-    left: 700px;
-    top: 300px;
+
+div.img_home {
+   position: absolute;
 }
 
 footer {
