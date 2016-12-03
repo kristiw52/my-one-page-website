@@ -38,7 +38,8 @@ nav a {
 */
 
 body {
-  font-family: Montserrat, sans-serif;}
+    font-family: Montserrat, sans-serif;
+}
 
 h1 {
     font-size: 40px;
@@ -63,14 +64,14 @@ section {
 }
 
 .header {
-	display: block;
-	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
-	height: 60px;
-	line-height: 20px
+    display: block;
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    height: 60px;
+    line-height: 20px
 }
 
 #home {
-	background: #ffffff;
+    background: #ffffff;
  }
 
 #about {
@@ -110,4 +111,3 @@ footer {
         display: block;
     }
 }
-
