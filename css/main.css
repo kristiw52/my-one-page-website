@@ -72,11 +72,12 @@ section {
 
 #home {
     background: #ffffff;
- }
+}
 
 #about {
     background: #ece9e9;
 }
+
 #policy {
     background: #dfdbdb;
 }
@@ -84,7 +85,6 @@ section {
 #contact {
     background: #c0bebe;
 }
-
 
 div.img_home {
    position: absolute;
