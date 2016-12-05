@@ -58,15 +58,14 @@ p {
 section {
     height: 400px;
     padding: 50px 80px;
-    background-size: cover;
-    background-attachment: fixed;
 }
 
-.header {
+header {
 	display: block;
 	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
 	height: 60px;
 	line-height: 20px
+	padding: 10px 0;
 }
 
 #home {
@@ -84,30 +83,9 @@ section {
     background: #c0bebe;
 }
 
-
-div.img_home {
-   position: absolute;
-}
-
 footer {
     font-size: 12px;
     padding: 10px 0;
 }
 
-/* Mobile Layout */
-
-/*mobile - hide until click */
-@media (max-width: 768px) {
-    nav ul {
-        display: none;
-    }
-    
-    nav li {
-        display: block;
-    }
-
-    #menu-icon {
-        display: block;
-    }
-}
 
