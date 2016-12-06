@@ -5,6 +5,7 @@ nav {
     top: 0;
     left: 0;
     width: 100%;
+    z-index: 1;
 }
 
 nav ul {
@@ -57,7 +58,7 @@ p {
 }
 
 section {
-    height: 400px;
+    min-height: 600px;
     padding: 50px 80px;
 }
 
